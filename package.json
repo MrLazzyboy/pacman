@@ -1,0 +1,21 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "description": "Pacman - it's a very funny game",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chalk": "^2.3.1",
+    "ora": "^1.4.0",
+    "webpack": "^3.11.0"
+  }
+}
